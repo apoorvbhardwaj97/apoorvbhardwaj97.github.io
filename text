@@ -1,0 +1,82 @@
+Sur Rov
+this was the DLC project that was made by me and my team of highly trained proffessinals,jk, it was made by students of NIIT University. In this project we tried not to use ardiono which whould be waste of resourcse as it can be done without one so we used encoder and decoeder to controll the moters. this was a very challenging projects as i had never before worked on hardware or Digital Circuits but it was a success dispite the challenges. we used a phone which was mounted onto the Rover to work as camera and send live video feed we could use an actuall camera but the product would be much cheaper if we did it with mountable phone as everyone as smartphones these days.
+Mereexams
+When i started to work for the company it was just a startup and looking for inters to hire what I didnt knew was that I would learn a lot in the upcomming months as i really had to work very hard as I was the only one wroking on the UI and frontend in the starting as the website was the produt and it had to look good for investers to invest in it. This startup has now become an establised company and has raised good amount of money as it was funded and praised by the investors.This website was made for students to look up colleges or coaching and all about then in just one place .
+Hostellers
+Hostellers was also a startup started in niit university by my team but due to lack of demand it failed. Even though it was not a succesful startup we learnet a lot from this project and now we know that startups might fail no matter how hard you have worked on the projects because you cant contorl something so you have to take them into considreation before starting the project.
+This website was made for anyone who travelles and for those who had free space in ther hotell ,hostel , or even their home user could select a location and all the places that use the app would show up where he/she could book a room.
+picoVR
+This was an app also designed by my team in niit university, as the world is changing and new tecnologies are introduced everyday we tried an made use of one of them. This app would allow the use to experience VR without paying heavy price for it as it done just by your phone and laptop.
+As the smartphone these days have so many diffrent kind of sencers I thought the accelromater and gyroscope sensor could be used to maipulate the coursoure movement and using it in a video game we could control the head movement (camera view) which would create a very immersive expiriece. We put the phone in a vr box which is very very cheap(Rs 100) compaired to the actual vr (Rs 50,000) then the video from the laptop (video game in form of a video stream) is streamed on the phone and gyrocope and accelorometer readings are sent to laptop for courser movemnet.
+
+<!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Surveillance Rover</h4>
+        </div>
+        <div class="modal-body">
+          <p>- Own project
+          <p>- circuit programming , hardware design</p>
+          <p>- Team: Apoorv Bhardwaj, Aditya Nain, Saurav Verma, Shivang Sharma</p>
+          <p>- This was the DLC project that was made by me and my team of highly trained proffessinals,jk, it was made by students of NIIT University. In this project we tried not to use ardiono which whould be waste of resourcse as it can be done without one so we used encoder and decoeder to controll the moters.</p>
+          <p>- This was a very challenging projects as i had never before worked on hardware or Digital Circuits but it was a success dispite the challenges. we used a phone which was mounted onto the Rover to work as camera and send live video feed we could use an actuall camera but the product would be much cheaper if we did it with mountable phone as everyone as smartphones these days.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+<!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">MereExams.com</h4>
+        </div>
+        <div class="modal-body">
+          <p>- Internship</p>
+          <p>- Website deigner , graphics designer</p>
+          <p>- When i started to work for the company it was just a startup and looking for inters to hire what I didnt knew was that I would learn a lot in the upcomming months as i really had to work very hard as I was the only one wroking on the UI and frontend in the starting as the website was the produt and it had to look good for investers to invest in it.</p>
+          <p>- This startup has now become an establised company and has raised good amount of money as it was funded and praised by the investors.This website was made for students to look up colleges or coaching and all about then in just one place.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+<!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Hotellers</h4>
+        </div>
+        <div class="modal-body">
+          <p>- Own project</p>
+          <p>- Website design, app design, graphic design, database design</p>
+          <p>- Team: Apoorv Bhardwaj, Saurav Verma, Siddthant Shekhar</p>
+          <p>- Hostellers was also a startup started in niit university by my team but due to lack of demand it failed. Even though it was not a succesful startup we learnet a lot from this project and now we know that startups might fail no matter how hard you have worked on the projects because you cant contorl something so you have to take them into considreation before starting the project.</p>
+		  <p>- This website was made for anyone who travelles and for those who had free space in ther hotell ,hostel , or even their home user could select a location and all the places that use the app would show up where he/she could book a room.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+<!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">PicoVr</h4>
+        </div>
+        <div class="modal-body">
+          <p>- Own project</p>
+          <p>- app deigner, innovator</p>
+          <p>- Team: Apoorv Bhardwaj, Moksh Talreaja, Yash Saxena, Vatsal Patel, Tullika Singh</p>
+          <p>- This was an app also designed by my team in niit university, as the world is changing and new tecnologies are introduced everyday we tried an made use of one of them. This app would allow the use to experience VR without paying heavy price for it as it done just by your phone and laptop.</p>
+		  <p>- As the smartphone these days have so many diffrent kind of sensors I thought the accelromater and gyroscope sensor could be used to maipulate the coursoure movement and using it in a video game we could control the head movement (camera view) which would create a very immersive expiriece.</p>
+		  <p>- We put the phone in a vr box which is very very cheap(Rs 100) compaired to the actual vr (Rs 50,000) then the video from the laptop (video game in form of a video stream) is streamed on the phone and gyrocope and accelorometer readings are sent to laptop for courser movemnet.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>

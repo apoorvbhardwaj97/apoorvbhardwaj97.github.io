@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<title>Apoorv Bhardwaj Portflio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--tooltip hover over image-->
+<style>
+/*
+.tooltip:hover .tooltiptext {
+    visibility: vi.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip
+    position: absolute;
+    z-index: 1;
+}
+sible;
+}
+*/
+
+#myImg {
+    /*border-radius: 5px;*/
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+</style>
+
+<body class="w3-content" style="max-width:1300px">
+
+<!-- First Grid: Logo & About -->
+<div class="w3-row">
+  <div class="w3-half w3-black w3-container w3-center" style="height:700px">
+    <div class="w3-padding-64">
+      <h1>Apoorv Bhardwaj</h1>
+    </div>
+    <div class="w3-padding-64">
+      <a href="#" class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">Home</a>
+      <a href="#work" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">Portfolio</a>
+      <a href="#work" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">Skills</a>
+      <a href="#contact" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16">Contact</a>
+    </div>
+  </div>
+  <div class="w3-half w3-blue-grey w3-container" style="height:700px">
+    <div class="w3-padding-64 w3-center">
+      <h1>About Me</h1>
+      <img src="me.jpg" class="w3-margin w3-circle" alt="me" style="width:50% ;height:320px">
+      <div class="w3-left-align w3-padding-large">
+        <p>My name is Apoorv Bhardwaj and I am a website designer, graphic designer, creative illustrater,android developer and database manager.</p>
+        <p>I am pretty confident with my C/C++,website designing and photoshop skills and have also gained some expirience by working on projects. Check them out.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid: portfolio and skills -->
+<div class="w3-row">
+  <div class="w3-half w3-indigo w3-center" style="min-height:800px; color:gray" id="portfolio">
+    <div class="w3-padding-64">
+      <h2>Portfolio</h2>
+      <p>Some of my projects.</p>
+    </div>
+    <div class="w3-row">
+      <div class="w3-half">
+      	<a href="#myModal" role="button" data-toggle="modal">
+        <img id="myImg" src="rover.jpg" style="width:100%">
+    	</a>
+        <span class="tooltiptext">Survaillance Rover</span>
+      </div>
+      <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Surveillance Rover</h4>
+        </div>
+        <div class="modal-body">
+          <p>- Own project
+          <p>- circuit programming , hardware design</p>
+          <p>- Team: Apoorv Bhardwaj, Aditya Nain, Saurav Verma, Shivang Sharma</p>
+          <p>- This was the DLC project that was made by me and my team of highly trained proffessinals,jk, it was made by students of NIIT University. In this project we tried not to use ardiono which whould be waste of resourcse as it can be done without one so we used encoder and decoeder to controll the moters.</p>
+          <p>- This was a very challenging projects as i had never before worked on hardware or Digital Circuits but it was a success dispite the challenges. we used a phone which was mounted onto the Rover to work as camera and send live video feed we could use an actuall camera but the product would be much cheaper if we did it with mountable phone as everyone as smartphones these days.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div></div></div>
+      <div class="w3-half">
+      	<a href="#myModal" role="button" data-toggle="modal">
+        <img id="myImg" src="melogo.jpg" style="width:100%">
+    	</a>
+        <span class="tooltiptext">MereExams.com</span>
+      </div>
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+<!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">MereExams.com</h4>
+        </div>
+        <div class="modal-body">
+          <p>- Internship</p>
+          <p>- Website deigner , graphics designer</p>
+          <p>- When i started to work for the company it was just a startup and looking for inters to hire what I didnt knew was that I would learn a lot in the upcomming months as i really had to work very hard as I was the only one wroking on the UI and frontend in the starting as the website was the produt and it had to look good for investers to invest in it.</p>
+          <p>- This startup has now become an establised company and has raised good amount of money as it was funded and praised by the investors.This website was made for students to look up colleges or coaching and all about then in just one place.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div></div></div>
+    </div>
+    <div class="w3-row w3-hide-small">
+      <div class="w3-half">
+      	<a href="#myModal" role="button" data-toggle="modal">
+        <img id="myImg" src="hostellers.jpg" style="width:100%">
+   		</a>
+        <span class="tooltiptext">Hostellers.in</span>
+      </div>
+      <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Hotellers</h4>
+        </div>
+        <div class="modal-body">
+          <p>- Own project</p>
+          <p>- Website design, app design, graphic design, database design</p>
+          <p>- Team: Apoorv Bhardwaj, Saurav Verma, Siddthant Shekhar</p>
+          <p>- Hostellers was also a startup started in niit university by my team but due to lack of demand it failed. Even though it was not a succesful startup we learnet a lot from this project and now we know that startups might fail no matter how hard you have worked on the projects because you cant contorl something so you have to take them into considreation before starting the project.</p>
+		  <p>- This website was made for anyone who travelles and for those who had free space in ther hotell ,hostel , or even their home user could select a location and all the places that use the app would show up where he/she could book a room.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div></div></div>
+      <div class="w3-half">
+      	<a href="#myModal" role="button" data-toggle="modal">
+        <img src="picovr.jpg" style="width:100%">
+    	</a>
+        <span class="tooltiptext">PicoVR</span>
+      </div>
+      <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">PicoVr</h4>
+        </div>
+        <div class="modal-body">
+          <p>- Own project</p>
+          <p>- app deigner, innovator</p>
+          <p>- Team: Apoorv Bhardwaj, Moksh Talreaja, Yash Saxena, Vatsal Patel, Tullika Singh</p>
+          <p>- This was an app also designed by my team in niit university, as the world is changing and new tecnologies are introduced everyday we tried an made use of one of them. This app would allow the use to experience VR without paying heavy price for it as it done just by your phone and laptop.</p>
+		  <p>- As the smartphone these days have so many diffrent kind of sensors I thought the accelromater and gyroscope sensor could be used to maipulate the coursoure movement and using it in a video game we could control the head movement (camera view) which would create a very immersive expiriece.</p>
+		  <p>- We put the phone in a vr box which is very very cheap(Rs 100) compaired to the actual vr (Rs 50,000) then the video from the laptop (video game in form of a video stream) is streamed on the phone and gyrocope and accelorometer readings are sent to laptop for courser movemnet.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div></div></div>
+    </div>
+<!--
+    <div class="w3-row w3-hide-small">
+      <div class="w3-half">
+        <img src="/w3images/sound.jpg" style="width:100%">
+      </div>
+      <div class="w3-half">
+        <img src="/w3images/workbench.jpg" style="width:100%">
+      </div>
+    </div>--><br>
+    <p>Did you like any?</p>
+  </div>
+  <!-- skills -->
+  <div class="w3-half w3-light-grey w3-container" style="min-height:800px">
+    <div class="w3-padding-64 w3-center">
+      <h2>Skills</h2>
+      <p>Skills i have aquired</p>
+      <div class="w3-container w3-responsive">
+     <!--   <table class="w3-table">
+          <tr>
+            <th>Year</th>
+            <th>Title</th>
+            <th>Where</th>
+          </tr>
+          <tr class="w3-white">
+            <td>2012-2016</td>
+            <td>The rest is history..</td>
+            <td>Lorem ipsum</td>
+          </tr>
+          <tr>
+            <td>2009-2012</td>
+            <td>Started my own company</td>
+            <td>My Garage</td>
+          </tr>
+          <tr class="w3-white">
+            <td>2008-2009</td>
+            <td>Started working for Lorem</td>
+            <td>London, UK</td>
+          </tr>
+          <tr>
+            <td>2005-2008</td>
+            <td>Degree in Bachelor of Design</td>
+            <td>Harvard, USA</td>
+          </tr>
+          <tr class="w3-white">
+            <td>2002-2005</td>
+            <td>Degree in Bachelor of Business</td>
+            <td>RMIT University, Melbourne, Australia</td>
+          </tr>
+          <tr class="w3-hide-medium">
+            <td>2002-2005</td>
+            <td>Degree in Bachelor of Business</td>
+            <td>RMIT University, Melbourne, Australia</td>
+          </tr>
+        </table>-->
+        	<div>C/C++
+        		<div class="progress w3-dark-grey">
+   		 			<div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+      	 			<span class="sr-only"></span>
+   				 	</div>
+ 	 			</div>
+ 	 		</div>
+ 	 		<div>HTML/CSS(Website design)
+        		<div class="progress w3-dark-grey">
+   		 			<div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+      	 			<span class="sr-only"></span>
+   				 	</div>
+ 	 			</div>
+ 	 		</div>
+ 	 		<div>Photoshop(Graphic/Visual design)
+        		<div class="progress w3-dark-grey">
+   		 			<div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+      	 			<span class="sr-only"></span>
+   				 	</div>
+ 	 			</div>
+ 	 		</div>
+ 	 		<div>Android Development(Java)
+        		<div class="progress w3-dark-grey">
+   		 			<div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+      	 			<span class="sr-only"></span>
+   				 	</div>
+ 	 			</div>
+ 	 		</div>
+ 	 		<div>Database and backend
+        		<div class="progress w3-dark-grey">
+   		 			<div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+      	 			<span class="sr-only"></span>
+   				 	</div>
+ 	 			</div>
+ 	 		</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Third Grid: Swing By & Contact -->
+<div class="w3-row" id="contact">
+  <div class="w3-half w3-dark-grey w3-container w3-center" style="height:700px">
+    <div class="w3-padding-64">
+      <h1>Swing By</h1>
+    </div>
+    <div class="w3-padding-64">
+      <p>..for a cup of coffee, or whatever.</p>
+      <p>Dwarka, New Delhi</p>
+      <p>+91 8700653989</p>
+      <p>apoorv.bhardwaj@st.niituniversity.in</p>
+    </div>
+  </div>
+  <div class="w3-half w3-teal w3-container" style="height:700px">
+    <div class="w3-padding-64 w3-padding-large">
+      <h1>Contact</h1>
+      <p class="w3-opacity">GET IN TOUCH</p>
+      <form class="w3-container w3-card w3-padding-32 w3-white" action="/action_page.php" target="_blank">
+        <div class="w3-section">
+          <label>Name</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="Name">
+        </div>
+        <div class="w3-section">
+          <label>Email</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="Email">
+        </div>
+        <div class="w3-section">
+          <label>Message</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="Message">
+        </div>
+        <button type="submit" class="w3-button w3-teal w3-right">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-black w3-padding-16">
+  
+</footer>
+
+</body>
+</html>
